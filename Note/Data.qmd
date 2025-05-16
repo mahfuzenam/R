@@ -1,0 +1,68 @@
+---
+title: "Data"
+format: pdf
+---
+
+## What is the data?
+
+Data is anything. Text, Number, Image, or Video.
+
+### Types of Data
+
+1.  **Quantitative/Numeric**
+    1.  Discrete Data - Counts, No fraction
+        -   Year, Age, Number of patients
+    2.  Continuous Data - Measurement, Fraction
+        -   Weight, Height, Blood glucose level
+2.  **Qualitative/Categorical**
+    1.  Ordinal - Order/Ranking
+
+        -   Knowledge of a disease- Poor, Moderate, Good
+        -   Rating of a product - 1/2/3/4/5
+
+    2.  Nominal - No ranking/order
+
+        -   Gender - Male/Female
+        -   Blood group - A/B/AB/O
+
+    3.  **Binary/Binomial** - Yes/No, 1/0
+
+        -   Smoker - Yes/No
+        -   Hypertension - Yes/No
+
+### Data Set/Data frame
+
+| Participant | Age | Gender | Height | Weight |
+|-------------|-----|--------|--------|--------|
+| A           | 27  | Male   | 170    | 155    |
+| B           | 30  | Female | 150    | 180    |
+| C           | 35  | Male   | 190    | 170    |
+
+### Columns and Rows
+
+-   Columns are called Variable
+-   Rows are called Sample/Observant
+
+### Functions
+
+-   A function is a particular piece of code that allows you to do something in R
+
+-   A functions are either built in R or comes from installing additional packages
+
+### Arguments/Parameters
+
+-   What you pass to a function
+
+### Package
+
+-   Bundle of code that can be loaded together and share with others
+
+-   Analogous to software application
+
+-   Package can be installed through install.package("package_name")
+
+-   Package can be uninstalled through remove.packages("package_name")
+
+-   All the installed packages can be seen through installed.packages()\[, "Package"\]
+
+-   Package can be called through library(package_name)
